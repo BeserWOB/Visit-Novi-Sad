@@ -1,0 +1,129 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#activities-title {
+    background-color: #1D3557;
+    margin: 0px auto 20px;
+    padding: 6px 24px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+}
+
+h4, p {
+    text-shadow: 0px 0px 4px black;
+    color: white;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border: solid 6px #1D3557; 
+}
+
+
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 50vh;
+    margin: 0 auto;
+    background-image: url("images/hero-img.jpeg");
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+#title{
+    background: rgba(69, 123, 157, 0.4);
+    padding: 5px 15px;
+    font-size: 3rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+#title:hover{
+    background: rgba(69, 123, 157, 1);
+}
+
+#subtitle{
+    background: rgba(29, 53, 87, 0.5);
+    padding: 5px 15px;
+    font-size: 1rem;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+.activities-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #457B9D;
+    padding: 20px;
+    border-radius: 
+    
+}
+
+.activities-sections-div {
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.activities-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    max-width: 150px;    
+}
+
+.imgs{
+    border-radius: 10px;
+}
+
+.imgs:hover{
+    opacity: 0.75;
+    transform: scale(1.1, 1.1);
+    transition: ease-in-out  350ms;
+}
+
+.guide-div {
+    background-color: #F1FAEE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto 30px;
+    max-width: 400px;
+    padding: 20px;
+    border: solid #1D3557 4px;
+}
+
+.guide-div:hover {
+    opacity: 0.75;
+}
+
+.guide-text{
+    text-align: center;
+    padding: 0 20px;
+    
+    
+}
