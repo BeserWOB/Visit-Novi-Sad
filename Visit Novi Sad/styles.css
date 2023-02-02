@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0 auto;
     text-align: center;
+    font-size: 2rem;
 }
 
 #activities-title {
